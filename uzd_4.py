@@ -3,7 +3,7 @@ def prasi_preci():
     while True:
         nosaukums = input("Prece (vai 'exit'): ")
         if nosaukums.lower() == 'exit':
-            return None
+            break
         try:
             cena = float(input(f"Cena {nosaukums}: "))
             if cena < 0:
